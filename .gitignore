@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Contains team passwords (hashed) and real paddler names/weights - never commit
+data/
+
+# Sample/local data with real paddler names, weights, and roles - not needed to run the app
+paddlers.csv
+config.json
